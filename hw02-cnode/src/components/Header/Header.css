@@ -1,0 +1,26 @@
+.header{
+    height: 50px;
+    background-color: #444;
+}
+.header header{
+    width: 1200px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.header img{
+    margin:  10px 20px;
+    width: 120px;
+    float: left;
+}
+.header input{
+    margin:  15px 20px;
+    height:20px;
+    float: left;
+    border-radius: 20px;
+}
+.header header a{
+    margin: 0 20px;
+    color: #ccc;
+    text-decoration: none;
+}
+

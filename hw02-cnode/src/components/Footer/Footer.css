@@ -1,0 +1,20 @@
+.footer {
+    background:#fff;
+    height: 200px;
+    width:100%;
+    float: left;
+}
+.footer footer{
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 13px;
+    line-height: 2em;
+}
+a.dark, a.dark:active, a.dark:link, a.dark:visited {
+    color: #666;
+    text-decoration: none;
+}
+.col_fade {
+    color: #ababab;
+}

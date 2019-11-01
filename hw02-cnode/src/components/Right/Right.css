@@ -1,0 +1,84 @@
+.right{
+    width: 290px;
+    float: right;
+    height: 500px;
+}
+.panel{
+    margin-bottom: 13px;
+    font-size:13px;
+}
+.inner{
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+    background-color: #fff;
+    line-height: 2em;
+}
+.inner img {
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+.span-info{
+    display: inline-block;
+    float: none;
+    padding: 3px 10px;
+    border: none;
+    margin: 0;
+    font-size: 14px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: none;
+    border-radius: 3px;
+    line-height: 2em;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #5bc0de;
+}
+.sep10{
+    height: 10px;
+}
+
+.panel .header{
+    padding: 10px;
+    height:20px;
+    background-color: #f6f6f6;
+}
+.header .col-fade{
+    color: #444;
+}
+ul.unstyled{
+    margin-left: 0;
+    list-style: none;
+}
+ol{
+    margin: 4px 0;
+    list-style: none; 
+    display: block;
+}
+
+.top_score {
+    color: gray;
+    padding: 2px;
+    margin-right: 10px;
+}
+.user_name {
+    max-width: 120px;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+}
+.friendship-community img {
+    width: 150px;
+}
+
+
+.inner .cnode-app-download {
+    text-align: center;
+}
+.git{
+    margin:0 auto;
+}

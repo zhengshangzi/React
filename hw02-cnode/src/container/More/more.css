@@ -1,0 +1,75 @@
+.more{
+    background-color: white;
+    width: 900px;
+}
+.more-title{
+    height:120px;
+
+}
+.more-line{
+    height:3px;
+    background-color: #ccc;
+}
+.more-line1{
+    height:18px;
+    background-color: #ccc;
+}
+.title1{
+    margin-top: 15px;
+    height:40px;
+    float: left;
+    width:100%;
+}
+.title2{
+    float: left;
+    margin-top: 30px;
+}
+.put-top {
+    background: #80bd01;
+    padding: 2px 4px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    height:20px;
+    width:40px;
+    float:left;
+}
+.put-title{
+    font-size:24px;
+    float:left;
+    margin-left: 15px;
+    margin-top: 5px;
+    width:830px;
+
+}
+
+.put-time{
+    margin-left: 5px;
+
+    float: left;
+    margin-right: 10px;
+}
+.put-id{
+    float: left;
+    margin-right: 10px;
+}
+.put-views{
+    float: left;
+    margin-right: 10px;
+}
+.put-tab1{
+    float: left;
+}
+.re{
+    height:20px;
+}
+.login-header{
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+}
