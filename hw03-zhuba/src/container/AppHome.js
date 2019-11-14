@@ -20,7 +20,7 @@ export default class AppHome extends Component {
                             style={{ display: 'inline-block', width: '100%', height: '200px' }}
                         >
                             <img
-                                src={'/images/home'+val+'.png'}
+                                src={'./images/home'+val+'.png'}
                                 alt=""
                                 style={{ width: '100%', verticalAlign: 'top' }}
                                 onLoad={() => {
@@ -34,7 +34,7 @@ export default class AppHome extends Component {
                 <Grid data={data2} columnNum={3} itemStyle={{ height: '140px', background: '#eeeeee',}} renderItem={dataItem => (
                         <div style={{ paddingLeft: '12.5px',paddingRight:'12.5px'}}>
                             {/* <img src={'/images/home'+dataItem+'.jpg'} style={{ width: '110px', height: '110px' }} alt="" /> */}
-                            <img src={'/images/home'+dataItem+'.png'} style={{ width: '100%', height: '100%' }} alt="" />
+                            <img src={'./images/home'+dataItem+'.png'} style={{ width: '100%', height: '100%' }} alt="" />
                         </div>
                 )} />
                 <div className="sub-title" style={{paddingTop:'15px',paddingBottom:'15px',backgroundColor:'#ffffff',fontSize:'18px'}}>
@@ -44,7 +44,7 @@ export default class AppHome extends Component {
                 </div>
                 <Grid data={data3} columnNum={1} itemStyle={{ height: '210px', background: '#eeeeee',padding:'0'}} renderItem={dataItem => (
                         <div style={{padding:0}}>
-                            <img src={'/images/home'+dataItem+'.png'} style={{ width: '100%', height: '100%' }} alt="" />
+                            <img src={'./images/home'+dataItem+'.png'} style={{ width: '100%', height: '100%' }} alt="" />
                         </div>
                 )} />
             </div>

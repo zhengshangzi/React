@@ -93,7 +93,7 @@ export default class AppShop extends Component {
                             style={{ display: 'inline-block', width: '100%', height: 200 }}
                         >
                             <img
-                                src={'/images/store'+'.png'}
+                                src={'./images/store'+'.png'}
                                 alt=""
                                 style={{ width: '100%', verticalAlign: 'top' }}
                                 onLoad={() => {
@@ -124,7 +124,7 @@ export default class AppShop extends Component {
                 />
                 <Grid data={data2} columnNum={2} itemStyle={{ height: '200px', background: 'rgba(0,0,0,.05)' }} renderItem={dataItem => (
                     <div style={{ paddingLeft: '12.5px',paddingRight:'12.5px'}}>
-                        <img src={'/images/store'+dataItem+'.png'} style={{ width: '100%', height: '80%', }} alt="" />
+                        <img src={'./images/store'+dataItem+'.png'} style={{ width: '100%', height: '80%', }} alt="" />
                         <div style={{ color: '#888', fontSize: '11.9px', marginTop: '12px',}}>
                             <div style={{textAlign:'left'}}>{name1[`${dataItem}`]}</div>
                         </div>
@@ -133,7 +133,7 @@ export default class AppShop extends Component {
                 )} />
                  <Grid data={data3} columnNum={1} itemStyle={{ height: '220px', background: 'white' }} renderItem={dataItem => (
                     <div style={{  paddingLeft: '12.5px',paddingRight:'12.5px'}}>
-                        <img src={'/images/store'+dataItem+'.png'} style={{ width: '100%', height: '100%' }} alt="" />
+                        <img src={'./images/store'+dataItem+'.png'} style={{ width: '100%', height: '100%' }} alt="" />
                     </div>
                 )} />
             </div>
